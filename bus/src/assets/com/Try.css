@@ -1,0 +1,19 @@
+.bbox{
+    height: 50px;
+    width: 50px;
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    
+
+   
+
+}
+.conten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
