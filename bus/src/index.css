@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    
+}
+
+#navv{
+    box-shadow: 2px 2px  12px black;
+}
+#box{
+    box-shadow: 3px 3px 20px  green;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 5s;
+
+}
+@keyframes move {
+    0%{
+        margin-top: 0%;
+    }
+    50%{
+        margin-top: -90px;
+        box-shadow: 3px 3px 10px red;
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+
+}
+
+
+#box2{
+    box-shadow: 3px 3px 20px green;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 5s;
+
+}
+@keyframes move {
+    0%{
+        margin-top: 0%;
+    }
+    50%{
+        margin-top: 90px;
+        box-shadow: 3px 3px 20px red;
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+
+}
+
+#box3{
+
+    box-shadow: 3px 3px 10px black;
+
+}
+
+/* #report{
+    animation-name: report;
+    margin-top: 40px;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 2s;
+
+}
+@keyframes report {
+    0%{
+        margin-top: 0%;
+    }
+    50%{
+        transform: scale(1.2);
+       
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+
+} */
+
+
+#man1{
+    height: 30%;
+    width: 30%;
+    animation-name: man1;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 5s;
+    
+}
+
+@keyframes man1 {
+    0%{
+        margin-top: 0%;
+    }
+    50%{
+        margin-top: 50px;
+       
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+
+}
+
+
+#man2{
+    height: 30%;
+    width: 30%;
+    animation-name: man2;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 5s;
+}
+@keyframes man2 {
+    0%{
+        margin-top: 0%;
+    }
+    50%{
+        margin-top: -50px;
+       
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+
+}
+#text{
+    width: 55%;
+}
+
+#bus{
+    margin-left: -1700px;
+    animation-name: bus1;
+   
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 15s;
+    
+}
+@keyframes bus1 {
+    0%{
+        margin-left:-1750px ;
+    }
+    100%{
+        margin-left: 1750px;
+       
+
+    }
+   
+
+}
+#msg{
+    margin-right: -1350px;
+    margin-bottom: -500px;
+    position: fixed;
+    animation-name: msg;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 0.5s;
+}
+@keyframes msg {
+    0%{
+        transform: rotate(0deg);
+        transform: scale(1.01);
+    }
+    100%{
+        transform: rotate(-4deg);
+       
+
+    }
+   
+
+}
+
+
+#me{
+    
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+     box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2); 
+   
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+  
+    border: 0;
+    transition: 2s;
+    
+   
+  
+    /* user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; */
+  
+    cursor: pointer;
+  
+  }
+  #me:hover{
+      
+      box-shadow: 0 0 2px black;
+     
+  }
+
+
+  #mainb{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+
+
+
+
+
+
+/* loder */
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: radial-gradient(farthest-side,#474bff 94%,#0000) top/9px 9px no-repeat,
+          conic-gradient(#0000 30%,#474bff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-c7wet2 1s infinite linear;
+}
+
+@keyframes spinner-c7wet2 {
+   100% {
+      transform: rotate(1turn);
+   }
+}

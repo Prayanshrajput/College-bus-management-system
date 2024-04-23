@@ -1,0 +1,15 @@
+step 1 -> npm init -y
+step 2 -> npm i nodemon
+step 3 -> 
+
+in package.json add in script
+    "dev":"nodemon index.js"
+
+ step 4 -> npm i express
+
+step 5 -> npm i dotenv
+
+step 6 -> npm i mongoose
+
+step 7 -> npm i cors
+
